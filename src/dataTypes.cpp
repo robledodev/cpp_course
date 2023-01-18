@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <string>
 
@@ -23,7 +24,7 @@ int main() {
 
     // Character - String
     char letter = 'R';
-    string nombre = "Robledo";
+    string name = "Robledo";
 
     return 0;
-}
+}*/

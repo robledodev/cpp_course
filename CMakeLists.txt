@@ -3,4 +3,4 @@ project(cpp_course)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(cpp_course src/dataTypes.cpp)
+add_executable(cpp_course src/dataTypes.cpp src/operations.cpp)
