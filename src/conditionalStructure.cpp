@@ -4,12 +4,14 @@
 using namespace std;
 
 int main() {
-    string movie = "12";
 
-    // Salida por consola
+    // Conditional Structure If
+    string movie;
+
+    // In
     cout << "Pelicula favorita: ";
 
-    // Entrada por consola
+    // Out
     cin >> movie;
 
     if(movie == "StarWars") {
