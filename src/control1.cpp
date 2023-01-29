@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <string>
 #include <fstream>
 
@@ -67,4 +67,4 @@ int main() {
     mobileFile.close();
     discountsFile.close();
     return 0;
-}
+}*/
