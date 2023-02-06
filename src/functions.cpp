@@ -1,13 +1,13 @@
-#include <iostream>
+/*#include <iostream>
 
 using namespace std;
 
 // Una función se define antes del main.
 // Pero se puede declarar antes y definirla después.
 
-// float getAbsolutValue(float value);
-void getAbsolutValue(float& value);
-// float getAbsolutValue(const float& value);
+// float getAbsoluteValue(float value);
+void getAbsoluteValue(float& value);
+// float getAbsoluteValue(const float& value);
 
 int main() {
     float value;
@@ -15,18 +15,18 @@ int main() {
     cout << "Introduce un valor: ";
     cin >> value;
 
-    getAbsolutValue(value); // Llamada
+    getAbsoluteValue(value); // Llamada
 
     cout << "El valor absoluto es " << value << endl;
 
     return 0;
 }
 /*
-float getAbsolutValue(float value) { // parámetros
+float getAbsoluteValue(float value) { // parámetros
     return value >= 0 ? value : -value;
 }*/
 /*
-void getAbsolutValue(float& value) { // parámetros
+void getAbsoluteValue(float& value) { // parámetros
     if(value < 0) {
         value = -value;
     }
