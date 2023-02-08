@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 using namespace std;
 
@@ -7,13 +7,13 @@ void initializeTable();
 int main() {
 
     // Declaration
-    /*
+
     int table[3]; // El 3 es la longitud (0 - 2)
 
     table[0] = 23;
     table[1] = 45;
     table[2] = 99;
-    table[3] = 56;*/
+    table[3] = 56;
 
     // Initialization
     double table[5] = {0.3, 0.8, 3.3, 9.45, 1.4};
@@ -47,7 +47,7 @@ void initializeTable() {
     cout << "Posicion 500: " << table[499] << endl;
     cout << "Posicion 38: " << table[37] << endl;
 
-}
+}*/
 
 
 //  Datos simples (int, float, char...)
